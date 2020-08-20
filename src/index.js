@@ -17,7 +17,15 @@ let todos = [
         description: "Call the caterers"
     }
 ];
+// my new code for onclick
 
+let button = document.querySelector(`#bttn`)
+function onClicker() {
+    console.log("")
+}
+button.onclick = onClicker;
+
+// End of new code
 function renderTodoApp() {
     let app = document.querySelector("#app")
     let h1 = document.createElement("h1")
